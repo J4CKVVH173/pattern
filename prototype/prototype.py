@@ -1,9 +1,6 @@
 from abc import abstractmethod, ABC
 
 class Shepa(ABC):
-    X = ''
-    Y = ''
-    color = ''
 
     def __init__(self, x, y, color):
         self.X = x
@@ -16,8 +13,6 @@ class Shepa(ABC):
 
 
 class Circle(Shepa):
-
-    radius = 0
 
     def __init__(self, x, y, color, radius):
         super().__init__(x, y, color)
