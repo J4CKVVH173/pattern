@@ -1,5 +1,6 @@
 from abc import abstractmethod, ABC
 
+
 class Shepa(ABC):
 
     def __init__(self, x, y, color):
